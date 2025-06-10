@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-справочник - Онлайн</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="search-container">
+            <img src="scrin/Логотип.png" width="200">
+            <h1>Справочный веб-ресурс</h1>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Поиск...">
+                <button onclick="search()">Поиск</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="online.html">Онлайн-сервисы и платформы</a></li>
+            <li><a href="neiro.html">Онлайн-сервисы с ипользованием ИИ</a></li>
+            <li><a href="about.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="center-image">
+            <img src="scrin/QBrain1.jpg" width="200">
+            </div>
+ 
+        <div class="entry">
+            <p><a href="https://q-brain.ru/">QBrain</a> - это российская онлайн-платформа, которая предназначена для создания различных видов тестов, опросов на базе нейросети. Платформа направлена на образовательные учреждения (школы, колледжи, вузы), а также на предпринимательскую деятельность.
+            </p>
+
+            <div class="center-image" style="text-align: center;">
+            <img src="scrin/QBrain2.png" width="500">
+            </div>
+
+            <h3>Функциональные возможности</h3>
+            <ol>
+                <li><p><b>Аналитика и отчетность: </b>сбор общей статистики по прохождению теста, просмотр результата каждого тестируемого.</p></li>
+                <li><p><b>Настройка тестов: </b>возможность перемешивания вопросов и ответов, убрать правильные ответы после прохождения теста, чтобы не передавать другим пользователям. </p></li>
+                <li><p><b>Экспорт данных: </b>экспортировать данные возможно в формате CSV. </p></li>
+            </ol>
+
+
+              <h3>Достоинства</h3>
+            <ol>
+                <li><p><b>Адаптивный дизайн:</b> платформа, которой можно пользоваться на различных устройствах.</p></li>
+                <li><p><b>Простота использования:</b> интуитивно понятный интерфейс, который позволяет быстро и легко создавать тесты различной сложности.</p></li>
+                <li><p><b>Анализ результатов: </b>возможность посмотреть ответ каждого тестируемого и собрать необходимую статистику.</p></li>
+            </ol>
+
+              <h3>Недостатки</h3>
+            <ol>
+                <li><p><b>Ограничение бесплатного тарифа.</b></p></li>
+                <li><p><b>Ограниченные возможности в настройках внешнего вида тестов: </b>дается стандартный шаблон для теста.</p></li>
+                <li><p><b>Ограничение экспорта данных: </b>экспорт данных доступен только в CSV-формате.</p></li>
+            </ol>
+
+                <h2>QBrain - российский конструктор тестов с искусственным интеллектом</h2>
+
+
+              <div class="video-container">
+                <iframe 
+                    width="480" 
+                    height="270" 
+                    src="https://dzen.ru/embed/v-7HtgJXxNH4?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+                    allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+                    data-testid="embed-iframe" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p><b>QBrain </b>– это интересная и эффективная платформа для создания тестов. Платформа проста в использовании, ориентирована на различные сферы деятельности. Однако платформа имеет ограничения в виде бесплатного тарифа.</p>
+
+            <div class="button-container">
+                <button class="back-button" onclick="goBack()">Назад</button>
+                <script>
+                    function goBack() {
+                      window.history.back();
+                    }
+                </script>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Автор: Шестак ММ </p>
+        <p>Email: m.shestak2016@gmail.com</p> 
+        <p>2025 Веб-справочник</p>
+    </footer>
+
+</body>
+</html>

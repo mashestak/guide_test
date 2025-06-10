@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-справочник - Главная</title>
+    <link rel="stylesheet" href="style/stylema.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="search-container">
+            <img src="scrin/Логотип.png" width="200">
+            <h1>Справочный веб-ресурс</h1>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Поиск...">
+                <button onclick="search()">Поиск</button>
+            </div>
+        </div>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="online.html">Онлайн-сервисы и платформы</a></li>
+            <li><a href="neiro.html">Онлайн-сервисы с ипользованием ИИ</a></li>
+            <li><a href="about.html">Контакты</a></li>
+        </ul>
+    </nav>
+      
+    <main>
+        <div class="entry">
+            <div class="gradient-text">
+              <h2>Онлайн-сервисы с использованием ИИ для создания тестов</h2>
+          </div>
+
+            <p>
+                В современном мире онлайн-образования и оценки знаний, создание эффективных и интересных тестов – это ключевая задача.
+                Здесь можно найти платформы, которые используют возможности искусственного интеллекта для создания тестов нового поколения
+            </p>
+
+            <p>
+                Платформы с искусственным интеллектом (ИИ) нужны для решения широкого круга задач, требующих автоматизации, анализа больших объемов данных, принятия решений и персонализации. 
+                Они привносят интеллект и автоматизацию в различные сферы, повышая эффективность, точность и удобство использования.
+            </p>
+
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Сервис</th>
+                              <th>Действия</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><img src="scrin/TestsPlatform.логотип.jpg"  class="logo">TestsPlatform</td>
+                              <td><a href="testsplat.html" class="button button-primary">Перейти</a></td>
+                          </tr>
+                          <tr>
+                              <td><img src="scrin/QBrail.логотип.jpg" class="logo">QBrain</td>
+                              <td><a href="brain.html" class="button button-primary">Перейти</a></td>
+                          </tr>
+
+                      </tbody>
+                  </table>
+      
+                  <div class="button-container">
+                    <button class="back-button" onclick="goBack()">Назад</button>
+                    <p><a href="testsplat.html" class="back-button1">Следующая страница</a></p>
+                    <script>
+                        function goBack() {
+                          window.history.back();
+                        }
+                    </script>
+                </div>
+              </div>
+          </main>
+      
+    <footer>
+        <p>&copy; Автор: Шестак ММ </p>
+        <p>Email: m.shestak2016@gmail.com</p> 
+        <p>2025 Веб-справочник</p>
+    </footer>
+
+</body>
+</html>

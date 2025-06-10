@@ -1,0 +1,249 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Замените 'Roboto' на 'Open Sans' */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*Оформление шапки*/
+header {
+    background: radial-gradient(circle, #000000, #cfcfcf);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.search-container img {
+    margin-right: 10px; 
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    width: 150px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+
+/*Оформление меню*/
+nav {
+    background: radial-gradient(circle, #000000, #c6c6c6);
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #d9d9d9;
+}
+
+/*Оформление нижнего меню*/
+footer {
+    text-align: center;
+    padding: 1em;
+    background: radial-gradient(circle, #000000, #cfcfcf);
+    color: #fff;
+}
+
+/* Оформление основного блока*/
+main {
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 2000px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Оформление основного текста */
+.entry {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eee;
+    text-indent: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.entry h2 {
+    margin-top: 0;
+}
+
+/* Оформление градиента в тексте*/
+.gradient-text {
+    padding: 2px;
+    margin: 5px;
+    text-align: left;
+    color: #2c3e50; 
+    background-image: linear-gradient(to right, #005187, #029740);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* Оформление картинок*/
+.image-text-container {
+    display: flex;        
+    align-items: center;      
+    
+}
+
+.image-text-container img {
+    margin-right: 350px;   
+}
+
+    /* Стили для изображений */
+    .person-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.center-image1 {
+    text-align: center;
+}
+
+.center-image1 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+      
+      
+/* Стиль для ячейки с изображением и текстом */
+.person-cell {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание */
+}
+
+/* Общий стиль для кнопок */
+.page-button {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.page-button:hover {
+    background-color: #3e8e41;
+}
+
+.back-button {
+    padding: 10px 15px;
+    background-color: #565656;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+            
+.back-button:hover {
+    background-color: #565656;
+}
+
+/* Оформление кнопки "Поиск"*/
+button {
+    background-color: #565656; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+/* Оформление таблицы */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+          
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+          
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+          
+/* Стиль для чередующихся строк */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+          
+/* Стиль для жирного текста */
+.feature-title {
+    font-weight: bold;
+}
+          
+/* Отступ для параграфов внутри ячеек */
+td p {
+    margin: 5px 0;
+}
+          
+/* Стиль для заголовка таблицы */
+h3 {
+    text-align: center;
+}
+
+/* Оформление разделительной линии*/
+.highlight-section {
+    border-top: 4px solid #4CAF50;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+          
+.highlight-section p:nth-child(2) {
+    font-weight: bold; 
+    font-size: 1.2em; 
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-справочник - Контакты</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="search-container">
+            <img src="scrin/Логотип.png" width="200">
+            <h1>Справочный веб-ресурс</h1>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Поиск...">
+                <button onclick="search()">Поиск</button>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="online.html">Онлайн-сервисы и платформы</a></li>
+            <li><a href="neiro.html">Онлайн-сервисы с ипользованием ИИ</a></li>
+            <li><a href="about.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="entry">
+            <h2 style="text-align: center;">Контакты</h2>
+            <p style="text-align: center;">Студентка 4 курса</p>
+            <p style="text-align: center;">Шестак Мария Максимовна</p>
+            <p style="text-align: center;">Email: m.shestak2016@gmail.com</p>
+            <p style="text-align: center;">Telegram</p>
+            <div class="center-image">
+            <img src="scrin/telegram.jpg" width="200">
+            </div>
+
+
+            <div class="button-container">
+                <button class="back-button" onclick="goBack()">Назад</button>
+                <script>
+                    function goBack() {
+                      window.history.back();
+                    }
+                </script>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Автор: Шестак ММ </p>
+        <p>Email: m.shestak2016@gmail.com</p> 
+        <p>2025 Веб-справочник</p>
+    </footer>
+
+</body>
+</html>

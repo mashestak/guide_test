@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-справочник - Главная</title>
+    <link rel="stylesheet" href="style/stylema.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <div class="search-container">
+            <img src="scrin/Логотип.png" width="200">
+            <h1>Справочный веб-ресурс</h1>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Поиск...">
+                <button onclick="search()">Поиск</button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="online.html">Онлайн-сервисы и платформы</a></li>
+            <li><a href="neiro.html">Онлайн-сервисы с ипользованием ИИ</a></li>
+            <li><a href="about.html">Контакты</a></li>
+        </ul>
+    </nav>
+      
+          <main>
+              <div class="entry">
+                  <div class="gradient-text">
+                    <h2>Онлайн-сервисы и платформы для создания тестов</h2>
+                </div>
+
+                  <p>
+                    На этой странице собрана полезная информация о различных платформах и сервисах, которые помогут создавать эффективные и интересные тесты. 
+                    Здесь рассмотрены как онлайн-решения, не требующие установки, так и программы, которые можно скачать и использовать локально. 
+                    Независимо от потребностей и бюджета, можно найти подходящий инструмент для тестирования знаний, проведения опросов или оценки навыков.
+                  </p>
+
+                <p>  
+                  Онлайн-платформы для создания тестов – это удобное решение, позволяющее создавать, распространять и анализировать результаты тестов прямо в браузере. 
+                  Они идеально подходят для тех, кто ценит гибкость, доступность и простоту использования. 
+                  Ниже мы рассмотрим две популярные платформы:
+                </p>
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Сервис</th>
+                              <th>Действия</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><img src="scrin/Яндекс.логотип.jpg"  class="logo">Яндекс.Формы</td>
+                              <td><a href="yandex.html" class="button button-primary">Перейти</a></td>
+                          </tr>
+                          <tr>
+                              <td><img src="scrin/Madtest.логотип.jpg" class="logo">Madtest</td>
+                              <td><a href="madtest.html" class="button button-primary">Перейти</a></td>
+                          </tr>
+                      </tbody>
+                  </table>
+
+
+                <p>
+                  В отличие от онлайн-платформ, программы для скачивания и установки предлагают больше контроля над данными и настройками. 
+                  Они хорошо подходят для организаций с высокими требованиями к безопасности или тех, кому необходимо работать в автономном режиме.
+                </p>
+                  <table>
+                    <thead>
+                        <tr>
+                            <th>Сервис</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="scrin/MyTestXPro.логотип.jpg" class="logo">My MyTestXPro</td>
+                            <td><a href="mytestxpro.html" class="button button-primary">Перейти</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+                <div class="button-container">
+                    <button class="back-button" onclick="goBack()">Назад</button>
+                    <p><a href="yandex.html" class="back-button1">Следующая страница</a></p>
+                    <script>
+                        function goBack() {
+                        window.history.back();
+                    }
+                    </script>
+                </div>
+                </div>
+            </main>
+
+    <footer>
+        <p>&copy; Автор: Шестак ММ </p>
+        <p>Email: m.shestak2016@gmail.com</p> 
+        <p>2025 Веб-справочник</p>
+    </footer>
+
+</body>
+</html>
